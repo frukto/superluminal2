@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kartoflane</groupId>
 	<artifactId>superluminal</artifactId>
-	<version>${sl.version}</version>
+	<version>2.1.2</version> <!-- use mvn versions:set to bump version number coherently -->
 	<packaging>pom</packaging>
 	<name>Superluminal Ship Editor</name>
 
@@ -12,12 +12,8 @@
 	</prerequisites>
 	
 	<properties>
-		<!-- The editor's version -->
-		<sl.version>2.1.2</sl.version>
-
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<jdk.version>1.6</jdk.version>
 		<swt.version>4.4</swt.version>
 		<log4j.version>2.0-rc1</log4j.version>
